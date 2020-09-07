@@ -1,0 +1,31 @@
+#center {
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+input[type=text] {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#left li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+#right li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
