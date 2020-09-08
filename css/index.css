@@ -1,31 +1,100 @@
+* {
+    font-family: arial,sans-serif;
+    font-size: 12px;
+}
+
 #center {
-    margin: auto;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
 }
 
+#google-logo {
+    transform: translateY(20px);
+}
+
 input[type=text] {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    transform: translateY(50px);
 }
 
 #left li {
     display: inline;
     list-style-type: none;
     margin: 0 10px;
-    padding: 0;
+    padding-left: 15;
+    float: left;
 }
 
 #right li {
+    float: right;
     display: inline;
     list-style-type: none;
-    margin: 0 0 0 10px;
+    margin: 0 10px 0 10px;
     padding: 0;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#search-lucky {
+    transform: translateY(80px);
+}
+
+#search-lucky li {
+    list-style-type: none;
+    display: inline;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+p {
+    transform: translateY(120px);
+}
+
+p a{
+    color: darkblue;
+    margin: auto;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    transform: translateY(520px);
+    background-color: gainsboro;
+}
+
+footer p{
+    transform: translateX(-90px);
+    padding-top: 12px;
+}
+
+#bottom-left li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
+    padding-left: 15;
+    float: left;
+}
+
+#bottom-right li{
+    float: right;
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+    padding: 0;
 }
